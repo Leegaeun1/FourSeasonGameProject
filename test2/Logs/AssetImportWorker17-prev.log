@@ -1,0 +1,559 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.20f1 (0e25a174756c) revision 927137'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ko' Physical Memory: 31937 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker17
+-projectPath
+C:/Users/User/Downloads/test2/test2/test2
+-logFile
+Logs/AssetImportWorker17.log
+-srvPort
+54694
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/User/Downloads/test2/test2/test2
+C:/Users/User/Downloads/test2/test2/test2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [45312] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3517790854 [EditorId] 3517790854 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PC8LCNR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [45312] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3517790854 [EditorId] 3517790854 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PC8LCNR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 8.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.20f1 (0e25a174756c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Downloads/test2/test2/test2/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7971 MB
+    Driver:   31.0.15.3667
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003988 seconds.
+- Loaded All Assemblies, in  0.343 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.204 seconds
+Domain Reload Profiling: 543ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (115ms)
+		LoadAssemblies (142ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (112ms)
+				TypeCache.ScanAssembly (101ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (204ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (169ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Downloads\test2\test2\test2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Downloads\test2\test2\test2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.805 seconds
+Refreshing native plugins compatible for Editor in 6.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 7.16 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.598 seconds
+Domain Reload Profiling: 1395ms
+	BeginReloadAssembly (320ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (414ms)
+		LoadAssemblies (354ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (106ms)
+			BuildScriptInfoCaches (18ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (599ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (479ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 8.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4318 unused Assets / (1.0 MB). Loaded Objects now: 4892.
+Memory consumption went from 122.5 MB to 121.6 MB.
+Total: 7.901000 ms (FindLiveObjects: 0.555500 ms CreateObjectMapping: 0.153300 ms MarkObjects: 6.392800 ms  DeleteObjects: 0.798700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 30589.201320 seconds.
+  path: Assets/lineAcross_ENV.forest/Logs/log_1b.fbx
+  artifactKey: Guid(4d70e63c1f16d754e86bac0e60189fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/Logs/log_1b.fbx using Guid(4d70e63c1f16d754e86bac0e60189fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2a931ad9c02335a5be59c902b8ca927') in 0.0881488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/lineAcross_ENV.forest/Logs/log_5a.fbx
+  artifactKey: Guid(70547e5e30af41a4ea52ca28f0f3fc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/Logs/log_5a.fbx using Guid(70547e5e30af41a4ea52ca28f0f3fc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04ab12c7c0c696632d54adf426833f25') in 0.0118635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/lineAcross_ENV.forest/Logs/treelog_3a.fbx
+  artifactKey: Guid(502dbef9b9146d64ca1715808160a951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/Logs/treelog_3a.fbx using Guid(502dbef9b9146d64ca1715808160a951) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff67f5b1aa81eab8777432fae1ce11e2') in 0.0112221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/lineAcross_ENV.forest/Logs/wood_1b.fbx
+  artifactKey: Guid(8fd36e8120f9a2847be2d8344c10cbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/Logs/wood_1b.fbx using Guid(8fd36e8120f9a2847be2d8344c10cbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fb56f22f69ce37a9086d625b1a6dd8a') in 0.010594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/lineAcross_ENV.forest/Logs/log_4b.fbx
+  artifactKey: Guid(0be4efb8ffe956d4d863fd33d0939a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/Logs/log_4b.fbx using Guid(0be4efb8ffe956d4d863fd33d0939a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62ac6efc23247a72d989fad348cc4be7') in 0.0100796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/lineAcross_ENV.forest/Logs/wood_4b.fbx
+  artifactKey: Guid(b802d2961a49436448741018ce312dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/Logs/wood_4b.fbx using Guid(b802d2961a49436448741018ce312dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31a2a44493d5f49dd7898e842169f451') in 0.0095768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.731122 seconds.
+  path: Assets/lineAcross_ENV.forest/Logs/woodboard_4b.fbx
+  artifactKey: Guid(751b11d50943ded4a914f054c4b6f140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/Logs/woodboard_4b.fbx using Guid(751b11d50943ded4a914f054c4b6f140) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '906d1aa07601f148ee915389b34c0124') in 0.0108269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/lineAcross_ENV.forest/Logs/woodboard_7a.fbx
+  artifactKey: Guid(789fa6fedff3e9449be6e8cc3ff5d007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/Logs/woodboard_7a.fbx using Guid(789fa6fedff3e9449be6e8cc3ff5d007) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fee8db29ee0c3b1d708b761326d0dca5') in 0.0112385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/lineAcross_ENV.forest/Logs/woodboard_5b.fbx
+  artifactKey: Guid(07321b814044f3948a99961b07a8f68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/Logs/woodboard_5b.fbx using Guid(07321b814044f3948a99961b07a8f68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '167edc0ae1544da3fb02d5cd5a5132a2') in 0.0097169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.278276 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67f92a9848a4f878ce7b202727cd0f7c') in 0.0017933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.218351 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e91c3e4442b7e01088cac83d2ff2682') in 0.0058193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.065727 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddf895371fb243a43805c31599b0542f') in 0.0053302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.273804 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55f17bbc32748896608e5bfdc7b7fdf3') in 0.0073111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.216506 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f12258251d55399e8a5fce6122acb54a') in 0.005069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.207912 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '031c787d3ade03bcde34eb7be541092a') in 0.0064467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.217358 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '834271e888c2e3db73deac029a452f8d') in 0.0058367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.613662 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c7fef4cf799a7d41ab809b84cbd521f') in 0.0081277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.634362 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a11c7449e320b2249e9dd824786eb231') in 0.0071848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.403192 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5d13d4cc502c8450bc8474e01f87feb') in 0.0056329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.028621 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4d3419366853fefc26d94fd362e246d') in 0.0091493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.832297 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67e38592ed3b9ffd8cc2df98fa744841') in 0.0138771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 92
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.222852 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f8510743066c87296588bf449c902d6') in 0.0057006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 92
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.807908 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a26d42d0592a11fd73fa2cc309178fa0') in 0.0069405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 92
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.613923 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c46a2855a8420d4a135dcbe13851756f') in 0.0060401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 92
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.841134 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0543507b4587f271dba5e60d7d1bbf42') in 0.0082452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 92
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.675959 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4170ffd7c8341de54930bc3cc5efbc0c') in 0.0062243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 132
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.607701 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0194d3b467544808e00067c905589022') in 0.0065433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 132
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.206440 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6662b8945d21d1c29f225d83cce4037') in 0.0064415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 172
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.228685 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b7e384de5f85a29f5cf594c748afadc') in 0.0083659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 172
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.606515 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3044bcf021f932e940f9d000d1d6f66b') in 0.0069234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 172
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.498333 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '082667afe48f90b578f8a41bb97dde1b') in 0.006348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 172
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.441718 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07597aa394dd30823b61b86bcfc0c66b') in 0.0062605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 172
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.215228 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7e1b8b8fa93a579891b535f98d2ddf0') in 0.0062632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 172
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.208804 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5538ed2ebcf612212d5ae1a54139196') in 0.0064564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 172
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.033410 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e6191005cfa249821ccfc5d79638f3a') in 0.0065404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 212
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.211318 seconds.
+  path: Assets/lineAcross_ENV.forest/MadePref/Box.prefab
+  artifactKey: Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/MadePref/Box.prefab using Guid(56d07193ce2553c4f9226e9c23b8dac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f68099b61ec7967b2f5dae35331d9145') in 0.0080713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 212
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.004564 seconds.
+  path: Assets/lineAcross_ENV.forest/Decoration/chair_1a.fbx
+  artifactKey: Guid(f679d55d49020644b99254a66135a92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/Decoration/chair_1a.fbx using Guid(f679d55d49020644b99254a66135a92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8b3ae052c246230415d80fa7f3ad87f') in 0.0120953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004227 seconds.
+  path: Assets/lineAcross_ENV.forest/Decoration/shelf_4a.fbx
+  artifactKey: Guid(22a9ab5873a6fe84f8e76eba7fecd611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/Decoration/shelf_4a.fbx using Guid(22a9ab5873a6fe84f8e76eba7fecd611) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e63026a3347803af0c426559a4c0269') in 0.0104372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/lineAcross_ENV.forest/Decoration/vase_1a.fbx
+  artifactKey: Guid(9b8f7db0449107543b97e3408093eb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/Decoration/vase_1a.fbx using Guid(9b8f7db0449107543b97e3408093eb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53f259f4bc84c71cb7b6e9c73f099845') in 0.0116893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/lineAcross_ENV.forest/Decoration/vase_1b.fbx
+  artifactKey: Guid(92a29eae66097564b99d190b710d21da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/Decoration/vase_1b.fbx using Guid(92a29eae66097564b99d190b710d21da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f640516b9d8e5276f34791f0e20aacd') in 0.0084085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/lineAcross_ENV.forest/Decoration/Table_3a.fbx
+  artifactKey: Guid(2907b75d9b491424eada0184ca0aac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/Decoration/Table_3a.fbx using Guid(2907b75d9b491424eada0184ca0aac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7ae551854480247e52088caaec8b720') in 0.0074071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/lineAcross_ENV.forest/Decoration/shelf_2a.fbx
+  artifactKey: Guid(78d57b623e8c4dc49b9fbe28752e0bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/Decoration/shelf_2a.fbx using Guid(78d57b623e8c4dc49b9fbe28752e0bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dcf03023913a185ffb133622adcebd0') in 0.0081369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/lineAcross_ENV.forest/Decoration/Table_2a.fbx
+  artifactKey: Guid(65a3f87d6c4e81b4e9cadf88116870b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/Decoration/Table_2a.fbx using Guid(65a3f87d6c4e81b4e9cadf88116870b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d8cd0f4ed8bd9a109ea20db86dd8240') in 0.0074028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/lineAcross_ENV.forest/Decoration/shelf_3a.fbx
+  artifactKey: Guid(213bbcf9602ca164fac31eb302dba466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/Decoration/shelf_3a.fbx using Guid(213bbcf9602ca164fac31eb302dba466) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f1c5fc047b4f4d7cc2ddc5d7a002e89') in 0.0079055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/lineAcross_ENV.forest/Decoration/vase_1c.fbx
+  artifactKey: Guid(b208b91511bd67a49bebc73bec1b35a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/Decoration/vase_1c.fbx using Guid(b208b91511bd67a49bebc73bec1b35a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3aace3d583ed31ed2a2d822630d93e0a') in 0.0078756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/lineAcross_ENV.forest/Decoration/Table_1a.fbx
+  artifactKey: Guid(a3aae08b2a50d25458b07b7ab59a58a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/Decoration/Table_1a.fbx using Guid(a3aae08b2a50d25458b07b7ab59a58a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e6fbaeb3f30fb6aed5db0c63f0191a3') in 0.0077057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/lineAcross_ENV.forest/Decoration/streetlamp_1a.fbx
+  artifactKey: Guid(c0aebab4319f0ea4e82b5992499b9510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/Decoration/streetlamp_1a.fbx using Guid(c0aebab4319f0ea4e82b5992499b9510) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d32a70debae6d43cd7537f5ccae68d4') in 0.00818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.274615 seconds.
+  path: Assets/lineAcross_ENV.forest/Prefabs/MadePrefPreFabs/House_1a.prefab
+  artifactKey: Guid(afbb3d5dd603340439a4b15055099ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineAcross_ENV.forest/Prefabs/MadePrefPreFabs/House_1a.prefab using Guid(afbb3d5dd603340439a4b15055099ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0698ba5fc8bbb5f41dd6b8b8b72d23e3') in 0.013744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
