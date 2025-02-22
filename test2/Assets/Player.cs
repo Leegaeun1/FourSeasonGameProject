@@ -23,6 +23,23 @@ public class Player : MonoBehaviour
         
     }
 
+    private void OnCollisionStay(Collision collision)
+    {
+        //if (collision.gameObject.CompareTag("Doors"))
+        //{
+        //    if (Input.GetKeyDown(KeyCode.E))
+        //    {
+
+        //        // 문을 90도 회전
+        //        collision.gameObject.transform.rotation = Quaternion.Euler(
+        //            collision.transform.rotation.eulerAngles.x,
+        //            collision.transform.rotation.eulerAngles.y + 90f,
+        //            collision.transform.rotation.eulerAngles.z
+        //        );
+        //    }
+        //}
+    }
+
     // 이동 관련 함수를 짤 때는 Update보다 FixedUpdate가 더 효율이 좋다고 한다. 그래서 사용했다.
     void FixedUpdate()
     {

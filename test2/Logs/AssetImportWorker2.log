@@ -1,0 +1,889 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.20f1 (0e25a174756c) revision 927137'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ko' Physical Memory: 31937 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/User/Documents/GitHub/icarus_december_game/FourSeasonGameProject/test2
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+52232
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/User/Documents/GitHub/icarus_december_game/FourSeasonGameProject/test2
+C:/Users/User/Documents/GitHub/icarus_december_game/FourSeasonGameProject/test2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [48980] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3849076100 [EditorId] 3849076100 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PC8LCNR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [48980] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3849076100 [EditorId] 3849076100 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PC8LCNR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 9.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.20f1 (0e25a174756c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Documents/GitHub/icarus_december_game/FourSeasonGameProject/test2/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7971 MB
+    Driver:   31.0.15.3667
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004431 seconds.
+- Loaded All Assemblies, in  0.366 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.232 seconds
+Domain Reload Profiling: 592ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (128ms)
+		LoadAssemblies (140ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (112ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (233ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (188ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (138ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\icarus_december_game\FourSeasonGameProject\test2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\icarus_december_game\FourSeasonGameProject\test2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.897 seconds
+Refreshing native plugins compatible for Editor in 8.22 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 8.70 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.747 seconds
+Domain Reload Profiling: 1632ms
+	BeginReloadAssembly (360ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (448ms)
+		LoadAssemblies (404ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (111ms)
+			BuildScriptInfoCaches (20ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (748ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (592ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (363ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 8.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4319 unused Assets / (1.4 MB). Loaded Objects now: 4893.
+Memory consumption went from 122.6 MB to 121.2 MB.
+Total: 12.412700 ms (FindLiveObjects: 0.496400 ms CreateObjectMapping: 0.430900 ms MarkObjects: 10.033600 ms  DeleteObjects: 1.450500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12781.747029 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Rocks/Rock7/rock_7.fbx
+  artifactKey: Guid(1de014002e771b84a9ff19bc335145ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Rocks/Rock7/rock_7.fbx using Guid(1de014002e771b84a9ff19bc335145ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76fccbdf707b991b4f1f1100b71ff767') in 0.0928489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Plants/Plant3/plant_3.fbx
+  artifactKey: Guid(30ae5fea4e92c4a449399b062965b44f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Plants/Plant3/plant_3.fbx using Guid(30ae5fea4e92c4a449399b062965b44f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f11819bb6581fc36f05dce6afa5ab276') in 0.0125436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Plants/Plant7/plant_7.prefab
+  artifactKey: Guid(bbb0ac67dc34f944785228d04e038485) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Plants/Plant7/plant_7.prefab using Guid(bbb0ac67dc34f944785228d04e038485) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5cd19bd822c9b1d5f6403f6a7120b336') in 0.0109334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Mushrooms/Mushroom1/mushroom_1.fbx
+  artifactKey: Guid(c3285a9e799184c459de9ebc1b91df3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Mushrooms/Mushroom1/mushroom_1.fbx using Guid(c3285a9e799184c459de9ebc1b91df3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'acb30efe088ee248fc0e4417ffbf877b') in 0.0141444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Plants/Plant12/plant_12.fbx
+  artifactKey: Guid(d60e149d8ccaf5c4ca56adefc271f8cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Plants/Plant12/plant_12.fbx using Guid(d60e149d8ccaf5c4ca56adefc271f8cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c350231402f079cb115c20396020ccb0') in 0.013753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Rocks/Rock24/rock_24.fbx
+  artifactKey: Guid(af6b355655f7d4d42a3c8fffd6edcdfc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Rocks/Rock24/rock_24.fbx using Guid(af6b355655f7d4d42a3c8fffd6edcdfc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf1824d8fdfd9cdb5524c2d6a794d792') in 0.0127999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Plants/Plant4/plant_4.fbx
+  artifactKey: Guid(c114d822c764b7b4c860a416d596368c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Plants/Plant4/plant_4.fbx using Guid(c114d822c764b7b4c860a416d596368c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a85931a84872301de0ffbdb17b0f1509') in 0.012896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Rocks/Rock22/rock_22.prefab
+  artifactKey: Guid(e400c68277f05ad48aef490b34bb7182) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Rocks/Rock22/rock_22.prefab using Guid(e400c68277f05ad48aef490b34bb7182) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc1c4e7edf96879ccd1dfd20aafa3fef') in 0.0094819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Rocks/Rock5/rock_5.fbx
+  artifactKey: Guid(acb1270f9a261d146b55fb7e154f3ce9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Rocks/Rock5/rock_5.fbx using Guid(acb1270f9a261d146b55fb7e154f3ce9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd824ed7c89a747277b387e7456c0d032') in 0.0113531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Plants/Plant7/plant_7.fbx
+  artifactKey: Guid(d8e5dcea97a05084d8b4b8fbf34dc84b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Plants/Plant7/plant_7.fbx using Guid(d8e5dcea97a05084d8b4b8fbf34dc84b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '746f01921df7be0c2e18ae942d3dafdd') in 0.0135279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Rocks/Rock6/rock_6.fbx
+  artifactKey: Guid(b24caf45e6f47d440b5cf772700ff52a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Rocks/Rock6/rock_6.fbx using Guid(b24caf45e6f47d440b5cf772700ff52a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff0ab4e88623d5325c9d17c363730180') in 0.0184835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Mushrooms/Mushroom2/mushroom_2.prefab
+  artifactKey: Guid(495bd8bc2a3e4b6479e5259148ca640f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Mushrooms/Mushroom2/mushroom_2.prefab using Guid(495bd8bc2a3e4b6479e5259148ca640f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '574cd001cfd2071390d5b559e180317e') in 0.0098724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Rocks/Rock26/rock_26.fbx
+  artifactKey: Guid(9ae573d29bf7a0b419b72c0c200f6e66) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Rocks/Rock26/rock_26.fbx using Guid(9ae573d29bf7a0b419b72c0c200f6e66) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9042cba5833f4b6d2b1a5c35f12c437a') in 0.013588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Mushrooms/Mushroom2/mushroom_2.fbx
+  artifactKey: Guid(0c08406cba5d90143a2cc369489b56af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Mushrooms/Mushroom2/mushroom_2.fbx using Guid(0c08406cba5d90143a2cc369489b56af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c46c4e6cfbb867829e5385466354f467') in 0.0123695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowPoly Environment Pack/FBX/Materials/Yellow.2.mat
+  artifactKey: Guid(88faa5a91a671444399e4dd91c9dc1da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowPoly Environment Pack/FBX/Materials/Yellow.2.mat using Guid(88faa5a91a671444399e4dd91c9dc1da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0372c6f2dec835a85c610ab402a8aaa') in 0.0160906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Flowers/Flower4/flower_4.prefab
+  artifactKey: Guid(51276cc88102cf44781a6249ac17e3b7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Flowers/Flower4/flower_4.prefab using Guid(51276cc88102cf44781a6249ac17e3b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc4c1b21a0b06ed436c608f472475278') in 0.010144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Logs/Log1/log_1.fbx
+  artifactKey: Guid(43720d3961a22e44d9fa37b32d2046dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Logs/Log1/log_1.fbx using Guid(43720d3961a22e44d9fa37b32d2046dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f75748b12f112944196233ece27172e0') in 0.0132492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Flowers/Flower4/flower_4.fbx
+  artifactKey: Guid(ab61831ab3976974ea0f0185449dfefa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Flowers/Flower4/flower_4.fbx using Guid(ab61831ab3976974ea0f0185449dfefa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '149072993b360e96230f0d796b7f83ff') in 0.0126603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LowPoly Environment Pack/Demo/Scene 2/PPS Demo 2.asset
+  artifactKey: Guid(8e5b0e62e596e2743aa1790e88b85fc2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowPoly Environment Pack/Demo/Scene 2/PPS Demo 2.asset using Guid(8e5b0e62e596e2743aa1790e88b85fc2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '869499d7ff68a2326955565ec278532a') in 0.0050262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Rocks/Rock11/rock_11.fbx
+  artifactKey: Guid(70d2bb889f13b814e8c483f173e5adb0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Rocks/Rock11/rock_11.fbx using Guid(70d2bb889f13b814e8c483f173e5adb0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '450ee211c4edd375cf9df66a0a32edf1') in 0.0112315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Cliffs/Cliff8/cliff_8.fbx
+  artifactKey: Guid(e5ed542d3b299d6499f264c450942120) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Cliffs/Cliff8/cliff_8.fbx using Guid(e5ed542d3b299d6499f264c450942120) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca5d5b040b80f7b95dbeb03ab37882be') in 0.0132769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Cliffs/Cliff2/cliff_2.fbx
+  artifactKey: Guid(c394a55e497a61f4cb10879c14d017e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Cliffs/Cliff2/cliff_2.fbx using Guid(c394a55e497a61f4cb10879c14d017e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6995d6241b0130adb0477f80c34a6fc2') in 0.0134386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/DemoScene/Textures/BasicMotions_CubeTexture.png
+  artifactKey: Guid(6a0b0feabef54604ba2ed826ff165b5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/DemoScene/Textures/BasicMotions_CubeTexture.png using Guid(6a0b0feabef54604ba2ed826ff165b5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2360f8946c7170a8ac07aa9de3a8234c') in 0.0346873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Paths/RockPath3/rock_path_3.fbx
+  artifactKey: Guid(6bbcfc647dd6831458cc80dc451292be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Paths/RockPath3/rock_path_3.fbx using Guid(6bbcfc647dd6831458cc80dc451292be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0ef7d95f81e9f53185dd428c64cfcb0') in 0.0128824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Debris/Debris1/debris_1.fbx
+  artifactKey: Guid(8a1f621c8a48cc743943e75a8ca0e01a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Debris/Debris1/debris_1.fbx using Guid(8a1f621c8a48cc743943e75a8ca0e01a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eda1d3b4729a202fbf0bfaddfcedec9b') in 0.0120952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Flowers/Flower2/flower_2.prefab
+  artifactKey: Guid(42d1aa1e935099b44bbee795578466c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Flowers/Flower2/flower_2.prefab using Guid(42d1aa1e935099b44bbee795578466c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db5b216064c75c53ac32b7780ad20d20') in 0.0093251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Rocks/Rock16/rock_16.fbx
+  artifactKey: Guid(1c6f2256caa6a56479f206ed0f088d84) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Rocks/Rock16/rock_16.fbx using Guid(1c6f2256caa6a56479f206ed0f088d84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '272309b18c5736ff5c2001a04b0a4587') in 0.0142954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Plants/Plant9/plant_9.fbx
+  artifactKey: Guid(b1d3980c138450e4d88637233ddbe2f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Plants/Plant9/plant_9.fbx using Guid(b1d3980c138450e4d88637233ddbe2f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7bed5b688d7367f0c841612e285e3cda') in 0.0161292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027168 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Rocks/Rock8/rock_8.fbx
+  artifactKey: Guid(7493efd9b1175a3498101c22fe5d187e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Rocks/Rock8/rock_8.fbx using Guid(7493efd9b1175a3498101c22fe5d187e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ce80a3c79a08cf67729aae07208844b') in 0.0144037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree17/tree_17.prefab
+  artifactKey: Guid(eee96d2b3af09c54aadeca6b884b8b14) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree17/tree_17.prefab using Guid(eee96d2b3af09c54aadeca6b884b8b14) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3481b63b90aaa383ce73df23dcf0830c') in 0.010394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Male/Idles/HumanM@Idle01.fbx
+  artifactKey: Guid(ebf6d636f0bdc7642bca3e831800df09) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Male/Idles/HumanM@Idle01.fbx using Guid(ebf6d636f0bdc7642bca3e831800df09) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e86b31fdde993a51fdbdd47725f76a65') in 0.0185319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 118
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Female/Idles/HumanF@Idle02-Idle01.fbx
+  artifactKey: Guid(3da359268264e0d4db38c1ce951c30ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Female/Idles/HumanF@Idle02-Idle01.fbx using Guid(3da359268264e0d4db38c1ce951c30ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4d21b0c8a971a81894b007eb7c14378d') in 0.0144612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree13/tree_13.fbx
+  artifactKey: Guid(b7e5b44a7a403a44187e6896e7dcdaca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree13/tree_13.fbx using Guid(b7e5b44a7a403a44187e6896e7dcdaca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd65f7ff1d33a8b078f59154d693946dc') in 0.011287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree18/tree_18.fbx
+  artifactKey: Guid(b9ae251e1dca88943977de87fd5323f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree18/tree_18.fbx using Guid(b9ae251e1dca88943977de87fd5323f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '671ffb6c44fb9b7f8547a2b6d61080c8') in 0.0115625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Run/HumanF@Run01_ForwardRight.fbx
+  artifactKey: Guid(a8265a611bc2c6b439b6c31f7c59c358) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Run/HumanF@Run01_ForwardRight.fbx using Guid(a8265a611bc2c6b439b6c31f7c59c358) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78f18ff5af45227e11f6b22c7392dc5a') in 0.0146698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree12/tree_12.fbx
+  artifactKey: Guid(40018ab15052ad442b761ca4edad7bf7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree12/tree_12.fbx using Guid(40018ab15052ad442b761ca4edad7bf7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3488b41270147c5837303764c12e2966') in 0.0118543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Stumps/Stump4/stump_4.prefab
+  artifactKey: Guid(33c8397ba59449d4ebfd20cc3afff9dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Stumps/Stump4/stump_4.prefab using Guid(33c8397ba59449d4ebfd20cc3afff9dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '674c757c75180340af049ca76ee96211') in 0.0080858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Forward.fbx
+  artifactKey: Guid(d18c13a5b4b923244a524a76a303e61d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Forward.fbx using Guid(d18c13a5b4b923244a524a76a303e61d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8133a6661e6df330b0ca2e5b0222f4b3') in 0.017474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/DemoScene/Textures/DummyFemale/BasicMotions_DummyFemale-AmbientOcclusion.png
+  artifactKey: Guid(368ba889470f45d4c8095d1fb2b3ac0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/DemoScene/Textures/DummyFemale/BasicMotions_DummyFemale-AmbientOcclusion.png using Guid(368ba889470f45d4c8095d1fb2b3ac0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1338fab23ee77cadce589d0b3804c625') in 0.0109864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Female/Idles/HumanF@Idle01.fbx
+  artifactKey: Guid(167a35c786f55384580421027047db5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Female/Idles/HumanF@Idle01.fbx using Guid(167a35c786f55384580421027047db5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c402473c68a6bc1673ff474217c931c') in 0.0165528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Stumps/Stump6/stump_6.fbx
+  artifactKey: Guid(ce3bfe1f010be2f41b8fa59c3bb620e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Stumps/Stump6/stump_6.fbx using Guid(ce3bfe1f010be2f41b8fa59c3bb620e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4d69e02865c1d7fa2b1431e0243e0b1') in 0.0121546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree20/tree_20.prefab
+  artifactKey: Guid(17a7c916a35ccd742ad5a9f6ea49eefb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree20/tree_20.prefab using Guid(17a7c916a35ccd742ad5a9f6ea49eefb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f84f7d7adf7be9f0537fd119602bbfe') in 0.0085689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/DemoScene/Textures/DummyMale/BasicMotions_DummyMale-AmbientOcclusion.png
+  artifactKey: Guid(83d6ae3054db625499490a25a76a3fcc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/DemoScene/Textures/DummyMale/BasicMotions_DummyMale-AmbientOcclusion.png using Guid(83d6ae3054db625499490a25a76a3fcc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59a1f0e36067b11c25944ea9e3f31cb7') in 0.0127825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Run/HumanF@Run01_ForwardLeft.fbx
+  artifactKey: Guid(fd77981efc8375b4e9b63e4fdc2d5578) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Run/HumanF@Run01_ForwardLeft.fbx using Guid(fd77981efc8375b4e9b63e4fdc2d5578) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a753d98bcb705026ef890e6304cac6e1') in 0.0170901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Run/HumanM@Run01_Right.fbx
+  artifactKey: Guid(bf1ae9d142e46c44f9f84cb41f729eab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Run/HumanM@Run01_Right.fbx using Guid(bf1ae9d142e46c44f9f84cb41f729eab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35460246f30c54759794dfcf8eda41f7') in 0.017732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 118
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree4/tree_4.prefab
+  artifactKey: Guid(489490c7014e5f24f846fba9f41f1bbd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree4/tree_4.prefab using Guid(489490c7014e5f24f846fba9f41f1bbd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '620ff1af6522222624053d86315ed05d') in 0.0091858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Run/HumanF@Run01_Forward.fbx
+  artifactKey: Guid(05ab35d27bb28ad49bc9c2b098b821ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Run/HumanF@Run01_Forward.fbx using Guid(05ab35d27bb28ad49bc9c2b098b821ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f37d2def5b8d1f70d4ab9d4948a866e5') in 0.0166211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/DemoScene/Materials/Scenario/BasicMotionsScenarioCubeRed.mat
+  artifactKey: Guid(8b7601ffe05456d43b652bd99e05b308) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/DemoScene/Materials/Scenario/BasicMotionsScenarioCubeRed.mat using Guid(8b7601ffe05456d43b652bd99e05b308) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74ce0c98436bec6fec06dfae7c39c475') in 0.0080659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree15/tree_15.prefab
+  artifactKey: Guid(a51cbbedadaf47d479bc6a1c47b46f5b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree15/tree_15.prefab using Guid(a51cbbedadaf47d479bc6a1c47b46f5b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf2af56fc8c572c0bc3d75ecd42a91f2') in 0.0082605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/DemoScene/Textures/DummyFemale/BasicMotions_DummyFemale-Normal.png
+  artifactKey: Guid(12b116fa679307f4d9ea568f3a26510b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/DemoScene/Textures/DummyFemale/BasicMotions_DummyFemale-Normal.png using Guid(12b116fa679307f4d9ea568f3a26510b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e0b8043c64590203cfb7bb79f5a5a2c') in 0.0131799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Backward.fbx
+  artifactKey: Guid(ea1152d3598363b4ba8e5a2aaf1b9590) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Backward.fbx using Guid(ea1152d3598363b4ba8e5a2aaf1b9590) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77f0a96b793a28d2cfaf7e1bf02cb458') in 0.0149146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree14/tree_14.fbx
+  artifactKey: Guid(4b2fbc8ae19080b45a2c1fd20143ff03) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree14/tree_14.fbx using Guid(4b2fbc8ae19080b45a2c1fd20143ff03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da23451cf88e16dbc5b66f1aeac45fb3') in 0.0122667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree16/tree_16.fbx
+  artifactKey: Guid(34773dfef32708d408cbfa993e000b7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree16/tree_16.fbx using Guid(34773dfef32708d408cbfa993e000b7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ddd7104ee058c6562d052a1c4fcc024') in 0.0118616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Turns/HumanM@Turn01_Right [RM].fbx
+  artifactKey: Guid(04a8218d40d89874a8ba9bfc00ec8037) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Turns/HumanM@Turn01_Right [RM].fbx using Guid(04a8218d40d89874a8ba9bfc00ec8037) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8257e1327d8c90d6ac6269047677708a') in 0.0153225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 118
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree16/tree_16.prefab
+  artifactKey: Guid(a4c074be12f86814ea9824e9966e45fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree16/tree_16.prefab using Guid(a4c074be12f86814ea9824e9966e45fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8a18b9ca42146332c79cf99f3b57331b') in 0.0088571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/DemoScene/Textures/DummyMale/BasicMotions_DummyMale-BaseColor.png
+  artifactKey: Guid(7dbe8fdc84d5a6e4e9cb4c47aaeb8961) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/DemoScene/Textures/DummyMale/BasicMotions_DummyMale-BaseColor.png using Guid(7dbe8fdc84d5a6e4e9cb4c47aaeb8961) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd89802c54ec172df35959913824e6e79') in 0.0107978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Turns/HumanF@Turn01_Left.fbx
+  artifactKey: Guid(96f409073e6fbf049961616070440186) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Turns/HumanF@Turn01_Left.fbx using Guid(96f409073e6fbf049961616070440186) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c053aab842c644eceed170decc1d281b') in 0.0135923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Turns/HumanM@Turn01_Right.fbx
+  artifactKey: Guid(3474edfe57da8b04799548d1b9997e7e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Turns/HumanM@Turn01_Right.fbx using Guid(3474edfe57da8b04799548d1b9997e7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '489d9454d7714043db856bff564b0dea') in 0.0156064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 118
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree25/tree_25.prefab
+  artifactKey: Guid(b6e44a5c5fcaf244bbae9bd52a851a75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree25/tree_25.prefab using Guid(b6e44a5c5fcaf244bbae9bd52a851a75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9dc5ac3acaaa74e8561a3e74f3f0a2d5') in 0.0084353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree24/tree_24.prefab
+  artifactKey: Guid(1697192561781834a99004e9c4beed23) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree24/tree_24.prefab using Guid(1697192561781834a99004e9c4beed23) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3bd7a937457e09321e8d3dae33acc09a') in 0.0081457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Walk/HumanM@Walk01_Backward.fbx
+  artifactKey: Guid(cb46d61a31f3bb34395ab55c7580ebee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Walk/HumanM@Walk01_Backward.fbx using Guid(cb46d61a31f3bb34395ab55c7580ebee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3f551184557cc76d3207a6618ebafd0') in 0.0139713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 118
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_ForwardLeft.fbx
+  artifactKey: Guid(59b6f459adee1bf4cbe2053a8f8c9f7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_ForwardLeft.fbx using Guid(59b6f459adee1bf4cbe2053a8f8c9f7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed53337e926942823ee0dc6b63eb0566') in 0.0185995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree11/tree_11.prefab
+  artifactKey: Guid(9518168266436f54aa48391f056f5287) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree11/tree_11.prefab using Guid(9518168266436f54aa48391f056f5287) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b83521874c9acf543bac344e510a88d') in 0.0086753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Sprint/HumanF@Sprint01_ForwardRight.fbx
+  artifactKey: Guid(6f22e939fb1d0474eafc01561ad43d37) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Sprint/HumanF@Sprint01_ForwardRight.fbx using Guid(6f22e939fb1d0474eafc01561ad43d37) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd91ea5b8e04e062ad4d58c9d92914b58') in 0.0161151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/HumanM@Fall01.fbx
+  artifactKey: Guid(d4f295b55050f1c4eb379ec3b6065e52) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/HumanM@Fall01.fbx using Guid(d4f295b55050f1c4eb379ec3b6065e52) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f34ac43763a2493e55c4b8be87d29a3') in 0.0131261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 118
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree17/tree_17.fbx
+  artifactKey: Guid(bb06ca74e1ca1874393556c7f4258673) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree17/tree_17.fbx using Guid(bb06ca74e1ca1874393556c7f4258673) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cfa87a99f7350c7b8b9ac89e177a2230') in 0.0107258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017690 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Walk/HumanM@Walk01_Right.fbx
+  artifactKey: Guid(6ae6fc1ae59ede345b4fb194814f318f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Walk/HumanM@Walk01_Right.fbx using Guid(6ae6fc1ae59ede345b4fb194814f318f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72d2242911707c45ba52e07edad42e9b') in 0.0159968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 118
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Sprint/RootMotion/HumanM@Sprint01_ForwardLeft [RM].fbx
+  artifactKey: Guid(5cb42faa270a0e44a869bf1204fdf95b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Sprint/RootMotion/HumanM@Sprint01_ForwardLeft [RM].fbx using Guid(5cb42faa270a0e44a869bf1204fdf95b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9bc7f5b57b7bf0e2295bdaf36214f725') in 0.0199009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 118
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Run/RootMotion/HumanF@Run01_ForwardLeft [RM].fbx
+  artifactKey: Guid(faafa64dd80e3fc40b18e8b3eb9cd2c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Run/RootMotion/HumanF@Run01_ForwardLeft [RM].fbx using Guid(faafa64dd80e3fc40b18e8b3eb9cd2c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '535a3d2bb0c94a0479d61d938814fd41') in 0.0184421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Walk/RootMotion/HumanM@Walk01_ForwardLeft [RM].fbx
+  artifactKey: Guid(7347e916c0047db4c83cae759dbc0bad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Walk/RootMotion/HumanM@Walk01_ForwardLeft [RM].fbx using Guid(7347e916c0047db4c83cae759dbc0bad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab0d636790a7fae9786f04ca781c46e0') in 0.0163271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 118
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_BackwardLeft [RM].fbx
+  artifactKey: Guid(c61cb4bd125007e4a83393ff033e4689) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_BackwardLeft [RM].fbx using Guid(c61cb4bd125007e4a83393ff033e4689) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4ec813a5adc481af7e7a54af29d3c0d') in 0.0145248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 118
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_Backward [RM].fbx
+  artifactKey: Guid(43ef596f78225224cb7f83a461194e6c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_Backward [RM].fbx using Guid(43ef596f78225224cb7f83a461194e6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1081dae58417473c881ec3ac201d992') in 0.0147717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 118
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_Left [RM].fbx
+  artifactKey: Guid(3188e42eb0ee6584a8bd6854f755d63a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_Left [RM].fbx using Guid(3188e42eb0ee6584a8bd6854f755d63a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca9f68c1a1883551991110d9f2660705') in 0.0163723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 118
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Run/RootMotion/HumanF@Run01_BackwardRight [RM].fbx
+  artifactKey: Guid(7845e2a598f33264ab539c9c510974fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Run/RootMotion/HumanF@Run01_BackwardRight [RM].fbx using Guid(7845e2a598f33264ab539c9c510974fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f438aafc21b9463bb50fa2d076c0c4a') in 0.0141299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Sprint/RootMotion/HumanF@Sprint01_Forward [RM].fbx
+  artifactKey: Guid(29f9b17ef50fbbf4cb8e686efa00a917) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Sprint/RootMotion/HumanF@Sprint01_Forward [RM].fbx using Guid(29f9b17ef50fbbf4cb8e686efa00a917) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd38fb325fcb3c21e16a093cbca0a2d86') in 0.0207819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Walk/RootMotion/HumanM@Walk01_BackwardLeft [RM].fbx
+  artifactKey: Guid(04dbe06c53dc3b246bc83f0803e3b71d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Walk/RootMotion/HumanM@Walk01_BackwardLeft [RM].fbx using Guid(04dbe06c53dc3b246bc83f0803e3b71d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8bdf6056900dbf5475f6d6717392f086') in 0.0167183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 118
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\icarus_december_game\FourSeasonGameProject\test2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\icarus_december_game\FourSeasonGameProject\test2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.653 seconds
+Refreshing native plugins compatible for Editor in 8.42 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.720 seconds
+Domain Reload Profiling: 1364ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (386ms)
+		LoadAssemblies (376ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (98ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (720ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (560ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (136ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 10.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4317 unused Assets / (0.9 MB). Loaded Objects now: 4895.
+Memory consumption went from 122.4 MB to 121.5 MB.
+Total: 10.024700 ms (FindLiveObjects: 0.672200 ms CreateObjectMapping: 0.311700 ms MarkObjects: 8.165400 ms  DeleteObjects: 0.874600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\icarus_december_game\FourSeasonGameProject\test2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\icarus_december_game\FourSeasonGameProject\test2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.612 seconds
+Refreshing native plugins compatible for Editor in 8.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.699 seconds
+Domain Reload Profiling: 1303ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (374ms)
+		LoadAssemblies (343ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (107ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (699ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (539ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (318ms)
+			ProcessInitializeOnLoadMethodAttributes (136ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 9.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4317 unused Assets / (0.7 MB). Loaded Objects now: 4895.
+Memory consumption went from 124.3 MB to 123.7 MB.
+Total: 8.278000 ms (FindLiveObjects: 0.446900 ms CreateObjectMapping: 0.123900 ms MarkObjects: 7.071600 ms  DeleteObjects: 0.634600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
