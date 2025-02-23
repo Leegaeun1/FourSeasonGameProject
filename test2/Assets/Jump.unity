@@ -6463,7 +6463,7 @@ Transform:
   m_GameObject: {fileID: 1419697157}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.49, z: -2.14}
+  m_LocalPosition: {x: 0, y: 1.5, z: -1.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8217,6 +8217,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 2372665269871188017, guid: 7d67ac5cfda0b944580afbed7561ec82, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2435953630748095677, guid: 7d67ac5cfda0b944580afbed7561ec82, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -8228,6 +8232,10 @@ PrefabInstance:
     - target: {fileID: 2610802414189173106, guid: 7d67ac5cfda0b944580afbed7561ec82, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2769551543264849176, guid: 7d67ac5cfda0b944580afbed7561ec82, type: 3}
+      propertyPath: jumpForce
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2769551543264849176, guid: 7d67ac5cfda0b944580afbed7561ec82, type: 3}
       propertyPath: rotateSpeed
