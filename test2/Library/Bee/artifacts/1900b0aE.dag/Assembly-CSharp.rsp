@@ -419,6 +419,7 @@
 "Assets/Kevin Iglesias/Basic Motions/DemoScene/Scripts/BasicMotionsAnimatorStateChanger.cs"
 "Assets/Kevin Iglesias/Basic Motions/DemoScene/Scripts/BasicMotionsCamera.cs"
 "Assets/Kevin Iglesias/Basic Motions/DemoScene/Scripts/BasicMotionsCharacterController.cs"
+"Assets/Skripts/CameraRotate.cs"
 "Assets/Skripts/DoorController.cs"
 "Assets/Skripts/Player.cs"
 -langversion:9.0
