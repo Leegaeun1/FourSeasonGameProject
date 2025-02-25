@@ -1,20 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
 
-    public float Speed = 10.0f;     // 움직이는 속도. public으로 설정하여 유니티 화면에서 조정할 수 있다.
+    public float Speed = 20.0f;     // 움직이는 속도
     float ry;
     float h, v;
     public float rotateSpeed=100.0f;
+
     bool isWalking = false;
+    bool isJump = false;
+    bool isGround = true;
+    bool isRun = false;
+
     public float jumpForce = 5f;
     private Rigidbody rb;
     Animator anim;
-    // Start is called before the first frame update
+
     void Start()
     {
         ry=transform.eulerAngles.y;
@@ -23,16 +29,18 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetButtonDown("Jump"))
-        {
-            Jump();
-        }
-
+        v = Input.GetAxis("Vertical");
+        h = Input.GetAxis("Horizontal");
+        
+        Walking();
+        Jump();
+        colliderObject();
+        GroundCheck();
     }
+
     void FixedUpdate()
     {
-        colliderObject();
-        Walking();
+        
     }
     void colliderObject()
     {
@@ -46,17 +54,56 @@ public class Player : MonoBehaviour
             v = 0;
         }
     }
-    private void Jump()
+
+    void GroundCheck()
     {
-        rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        Vector3 startPosition = transform.position + Vector3.up;
+        Debug.DrawRay(startPosition, -transform.up*5f , Color.red);
+        RaycastHit rayHit;
+
+        if (Physics.Raycast(startPosition, -transform.up*3f, out rayHit, 1, LayerMask.GetMask("Ground")))
+        {
+            print("바닥!");
+            isGround = true;
+        }
+        else
+        {
+            print("바닥아님");
+            isGround = false;
+        }
+
+        anim.SetBool("isGround", isGround);
     }
+
+    private void Jump() // 수정하기
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && isGround)
+        {
+            print("스페이스 누름");
+
+            isJump = true;
+            isGround = false;
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        }
+        anim.SetBool("isJump", isJump);
+    }
+
     void Walking()
     {
-        v = Input.GetAxis("Vertical");
-        h = Input.GetAxis("Horizontal");
+        
+        if (Input.GetButton("Sprint")) // Run
+        {
+            Run();
+        }
+        else
+        {
+            isRun = false;
+            Speed = 20.0f;
+        }
         transform.Translate(new Vector3(0, 0, v) * Speed * Time.deltaTime);
         ry += h * rotateSpeed * Time.deltaTime;
         transform.rotation = Quaternion.Euler(new Vector3(0, ry, 0));
+
         if (h != 0 || v != 0)
         {
             isWalking = true;
@@ -65,6 +112,13 @@ public class Player : MonoBehaviour
         {
             isWalking = false;
         }
+        isJump = false;
         anim.SetBool("isWalk", isWalking);
+        anim.SetBool("isRun", isRun);
+    }
+    void Run()
+    {
+        Speed=50.0f;
+        isRun = true;
     }
 }
